@@ -1,0 +1,184 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    
+}
+body{
+    background-color: #0f0f1e;
+    padding: 20px;
+}
+
+/*Apresentação*/
+
+h1 {
+    margin: 20px 0;
+    text-align: center; 
+    font-size: 45px;
+    color: aqua; 
+}
+.linha {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow-x: auto;
+    flex-wrap: wrap; 
+}
+.fotoJaleco {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    object-fit: cover;  
+}
+.apresentacao {
+    font-size: 1.25rem;
+    font-family: "Poppins", sans-serif;
+    flex: 1;
+    text-align: justify;
+    line-height: 1.6;
+    min-height: 300px;   
+    color: white;
+}
+
+.botaojs {
+    width: 47%;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+}
+
+
+button {
+    margin: auto;
+    display: block;
+}
+
+.msgbotaojs {
+    display:none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.botaojs:hover {
+    width: 50%;
+    cursor: pointer;
+    
+}
+
+/*Hobbies*/
+
+h2 { 
+    text-align: center;
+    margin: 30px 0 20px;
+    font-size: 30px;
+
+.hobbies-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+    gap: 40px;
+}
+
+.listaFoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.lista-hobbies {
+    flex: 0;
+    line-height: 2;
+}
+
+
+.lista-hobbies ul {
+    
+    margin: 0;
+    list-style-type: disc;
+    
+    line-height: 2;    
+    text-align: center;
+}
+}
+
+.lista-hobbies li {
+    margin-bottom: 30px;
+    list-style-position: inside;
+}
+
+.fotoMotocross {
+    width: 300px;
+    border-radius: 8px;
+    flex-shrink: 0; 
+    align-items: center;
+
+}
+
+.link-motocross {   
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+ul { 
+    margin: 0;
+    padding-left: 1.5rem;
+    list-style: disc;
+    font-family: "Poppins", sans-serif;
+}
+
+table {
+    background-color: rgb(0, 0, 0) ;
+    border-radius: 6px;
+    border-color: white;
+    margin: auto;
+}
+
+.cidade {  
+    padding: 5%;
+}
+
+.imgtable {
+    width: 300px;
+    height: 200px;
+}
+
+
+a {
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background: linear-gradient(90deg,rgba(127, 125, 140, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    font-weight: 600;
+}
+
+a:hover {
+    color: yellow;
+    background: linear-gradient(90deg,rgba(150, 149, 163, 1) 0%, rgba(49, 49, 122, 1) 35%, rgba(101, 227, 252, 1) 100%);
+}
+
+.centralizacao {
+    text-align: center;
+}
